@@ -1,0 +1,151 @@
+/* Reseteo de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+/* Estilo del encabezado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+header img {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ff9900;
+}
+
+/* Sección principal con título y subtítulo */
+.contacto-principal {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.contacto-principal h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.contacto-principal p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Sección de contacto: información y formulario */
+.seccion-contacto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+}
+
+.informacion-contacto, .formulario-contacto {
+    flex: 1;
+    max-width: 500px;
+    margin: 20px;
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.informacion-contacto h2, .formulario-contacto h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.informacion-contacto p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Estilo del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button.btn {
+    padding: 15px;
+    background-color: #ff9900;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.btn:hover {
+    background-color: #e68a00;
+}
+
+/* Pie de página */
+footer {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ff9900;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer .redes-sociales a {
+    margin: 0 10px;
+    font-size: 20px;
+    color: white;
+}
+
+footer .redes-sociales a:hover {
+    color: #ff9900;
+}
